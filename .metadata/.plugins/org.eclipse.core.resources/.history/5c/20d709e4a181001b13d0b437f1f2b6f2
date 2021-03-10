@@ -1,0 +1,22 @@
+import java.util.concurrent.atomic.AtomicInteger;
+
+
+public class LockTicket implements Lock {
+	
+	volatile int[] turn;
+	volatile AtomicInteger number;
+	volatile int next = 1;
+	
+	public LockTicket(int M){
+		this.turn = new int[2*M+2];
+		this.number = new AtomicInteger(1);
+	}
+	public void takeLock(int id) {
+		this.turn[id] = 
+	}
+	
+	public void releaseLock(int id) {
+		
+	}
+
+}

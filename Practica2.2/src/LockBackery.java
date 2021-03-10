@@ -1,11 +1,17 @@
 
 public class LockBackery implements Lock {
+	volatile int[] turn;
+	public LockBackery(int M) {
+		this.turn = new int[2*M+2];
+	}
 
-	public void takeLock(WrapInt n) {
-		
+	public void takeLock(WrapInt n,int id) {
+		for(int j = 1; j < turn.length; ++j) {
+			
+		}
 	}
 	
-	public void releaseLock(WrapInt n) {
+	public void releaseLock(WrapInt n,int id) {
 		
 	}
 	

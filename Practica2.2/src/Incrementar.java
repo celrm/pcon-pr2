@@ -13,11 +13,11 @@ public class Incrementar extends Thread {
 
     public void run() {
         for (int i = 0; i < N; ++i){
-        	l.takeLock(n);
+        	l.takeLock(n,id);
         	
         	++n.value;
 
-        	l.releaseLock(n);
+        	l.releaseLock(n,id);
         }
     }
 

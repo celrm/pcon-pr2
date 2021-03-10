@@ -2,8 +2,8 @@
 public class main {
 	static WrapInt n;
 	public static void main(String[] args) {
-		int M = 5;
-		int N = 1000;
+		int M = 50;
+		int N = 200;
 		n = new WrapInt();
 		n.value = 0;
 		Lock l = new LockBackery(M);

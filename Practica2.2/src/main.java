@@ -3,7 +3,7 @@ public class main {
 	static WrapInt n;
 	public static void main(String[] args) {
 		int M = 5;
-		int N = 100;
+		int N = 1000;
 		n = new WrapInt();
 		n.value = 0;
 		Lock l = new LockBackery(M);

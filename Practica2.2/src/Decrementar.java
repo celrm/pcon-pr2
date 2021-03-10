@@ -13,11 +13,11 @@ public class Decrementar extends Thread {
 
     public void run() {
         for (int i = 0; i < N; ++i){
-        	l.takeLock(n,id);
+        	l.takeLock(id);
         	
         	--n.value;
 
-        	l.releaseLock(n,id);
+        	l.releaseLock(id);
         }
     }
 

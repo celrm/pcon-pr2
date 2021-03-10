@@ -7,11 +7,11 @@ public class LockRompeEmpate implements Lock {
 		this.last = new int[2*M+2];
 	}
 
-	public void takeLock(WrapInt n,int id) {
+	public void takeLock(int id) {
 		
 	}
 	
-	public void releaseLock(WrapInt n,int id) {
+	public void releaseLock(int id) {
 		
 	}
 

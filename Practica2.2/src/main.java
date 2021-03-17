@@ -2,11 +2,11 @@
 public class main {
 	static WrapInt n;
 	public static void main(String[] args) {
-		int M = 10;
+		int M = 20;
 		int N = 100;
 		n = new WrapInt();
 		n.value = 0;
-		Lock l = new LockRompeEmpate(M);
+		Lock l = new LockTicket(M);
 		Decrementar[] dt = new Decrementar[M];
 		Incrementar[] it = new Incrementar[M];
 		for (int i = 0; i < M; ++i){

@@ -1,6 +1,3 @@
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.IntBinaryOperator;
-
 public class LockBackery implements Lock {
 
 	volatile WrapInt[] turn;

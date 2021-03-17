@@ -24,7 +24,7 @@ public class LockRompeEmpate implements Lock {
 	}
 	
 	public void releaseLock(int id) {
-		in[id].set(0);
+		in[id] = 0;
 	}
 
 }

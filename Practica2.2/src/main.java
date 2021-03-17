@@ -2,8 +2,8 @@
 public class main {
 	static WrapInt n;
 	public static void main(String[] args) {
-		int M = 5;
-		int N = 10;
+		int M = 10;
+		int N = 100;
 		n = new WrapInt();
 		n.value = 0;
 		Lock l = new LockRompeEmpate(M);

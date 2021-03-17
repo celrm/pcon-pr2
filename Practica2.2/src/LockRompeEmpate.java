@@ -15,8 +15,10 @@ public class LockRompeEmpate implements Lock {
 			in[id].value = j;
 			last[j].value = id;
 			for(int  k=1; k < in.length; ++k) {
-				while(in[k].value>=in[id].value
-						&& last[j].value==id);
+				if(k!=id) {
+					while(in[k].value>=in[id].value
+							&& last[j].value==id);
+				}
 			}
 		}
 	}

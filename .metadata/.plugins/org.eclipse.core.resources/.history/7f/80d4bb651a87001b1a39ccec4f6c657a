@@ -3,10 +3,17 @@ public class main {
 	static WrapInt n;
 	public static void main(String[] args) {
 		int M = 5;
+<<<<<<< HEAD
+		int N = 20000;
+		n = new WrapInt();
+		n.value = 0;
+		Lock l = new LockTicket(M);
+=======
 		int N = 20;
 		n = new WrapInt();
 		n.value = 0;
 		Lock l = new LockRompeEmpate(M);
+>>>>>>> 56f7727c51076f41ec60f75d0b9cfd78ad9ead45
 		Decrementar[] dt = new Decrementar[M];
 		Incrementar[] it = new Incrementar[M];
 		for (int i = 0; i < M; ++i){

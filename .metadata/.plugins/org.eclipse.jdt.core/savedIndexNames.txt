@@ -10,7 +10,6 @@ INDEX VERSION 1.127+/Users/mariaarranzlobo/Desktop/PracticasPC/Practica2/.metada
 2055598051.index
 1271342938.index
 3087902465.index
-15034075.index
 558823348.index
 749174627.index
 2582394721.index

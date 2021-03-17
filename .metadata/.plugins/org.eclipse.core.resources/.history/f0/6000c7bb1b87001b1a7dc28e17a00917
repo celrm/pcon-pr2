@@ -3,7 +3,7 @@ public class main {
 	static WrapInt n;
 	public static void main(String[] args) {
 		int M = 5;
-		int N = 10;
+		int N = 20;
 		n = new WrapInt();
 		n.value = 0;
 		Lock l = new LockRompeEmpate(M);
